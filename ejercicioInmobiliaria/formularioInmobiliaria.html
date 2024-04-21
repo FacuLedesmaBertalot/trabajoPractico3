@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Inmobiliaria</title>
+</head>
+<body bgcolor="black" text="white">
+
+    <h1 align="center">
+        <p><big>Inmobiliaria Ledesma</big></p>
+        <hr size="3" color="brown">
+        <img src="img/inmobiliariaLogo.jpg" align="left" height="140" width="140" alt="logo inmobiliaria">
+    </h1>
+    <h2>
+        <p>Nuestra Historia:</p>
+            <h3>
+                <p align="right, justify">Desde 1992, Inmobiliaria Ledesma ha sido un referente en el mercado inmobiliario, ofreciendo servicios de calidad y confianza a nuestros clientes. Nos enorgullece contar con un equipo de profesionales altamente capacitados y comprometidos con la satisfacción de quienes confían en nosotros para encontrar su hogar ideal o invertir en propiedades.</p>
+            </h3>
+    </h2>
+    <hr size="3" color="brown">
+    <h2>
+        Formulario para Alquiler/Venta
+    </h2>
+    <form>
+        Nombre:
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" maxlength="25"><br>
+        Apellido:
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido" maxlength="25"><br>
+        Dirección:
+        <textarea name="direccion" id="direccion"  maxlength="30">
+        </textarea><br>
+        Teléfono: 
+        <input type="tel" name="telefono" id="telefono" value="0299-" maxlength="15"><br>
+        Alquiler
+        <input type="radio" name="alquiler" id="alquiler"><br>
+        Compra
+        <input type="radio" checked name="compra" id="compra"><br>
+        Zonas:<br>
+        Zona Centro
+        <input type="checkbox" checked name="zonaCentro" id="zonaCentro"><br>
+        Zona Norte
+        <input type="checkbox" name="zonaNorte" id="zonaNorte"><br>
+        Zona Sur
+        <input type="checkbox" checked name="zonaSur" id="zonaSur"><br>
+        Comentario del Inmueble que Busca:
+        <textarea></textarea><br>
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+    
+</body>
+</html>
